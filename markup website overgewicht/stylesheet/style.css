@@ -1,17 +1,21 @@
 nav{
-    width: 70%;
-    padding: 55px 50px;
-    margin:20px;
-    text-align: center-left;
-    display:block;
-    color:black;
-    border:40px black;
-    
+overflow:hidden;
 }
-p{
-    color:red;
+nav a{
+float: left;
+color: #000;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size: 20px;
+background-color:#17d660;
 }
-ul{
-    list-style-type:none ;
-    background-color:#90ee90;
+nav a:hover{
+background-color:#17a760;
+color:#000;
 }
+nav a:active{
+background-color:#149536;
+color:#000
+}
+
