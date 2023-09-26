@@ -1,5 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
 nav{
 overflow:hidden;
+padding-bottom:20px;
 }
 nav a{
 float: left;
@@ -7,8 +13,12 @@ color: #000;
 text-align:center;
 padding:14px 16px;
 text-decoration:none;
-font-size: 20px;
+font-size: 18px;
 background-color:#17d660;
+border:solid #17a760 1px;
+margin:auto;
+width:200px;
+height:20px;
 }
 nav a:hover{
 background-color:#17a760;
@@ -18,4 +28,27 @@ nav a:active{
 background-color:#149536;
 color:#000
 }
+#list{
+border:solid #000 2px;
+}
+#list,p{
+width: 50%;
+text-align: left;
+padding-bottom:20px;
+border:solid #000 1px;
+}
+#list,li{
+padding-left:30px;
 
+}
+#list,a{
+margin:0px;
+padding-left:10px;    
+text-decoration: none;
+color:#000;
+
+}
+img{
+height:25%;
+width:25%;
+}
