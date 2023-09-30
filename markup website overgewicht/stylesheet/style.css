@@ -1,7 +1,7 @@
 *{
     margin:0px;
     padding:0px;
-
+    border:0px;
 }
 nav{
 overflow:hidden;
@@ -28,7 +28,7 @@ nav a:active{
 background-color:#149536;
 color:#000
 }
-#list{
+/*#list{
 border:solid #000 2px;
 }
 #list,p{
@@ -47,8 +47,34 @@ padding-left:10px;
 text-decoration: none;
 color:#000;
 
+}*/
+p.text{
+float: left;
+margin: 30px;
+width: 90% auto;
+margin-left:3%;
+margin-bottom:25px;
+margin-right:0px;
+font-size:18px;
+text-align: left;
+}
+#homepic{
+width:30%;
+float:right;
+margin-right: 20%;
+clear:both;
+}
+li{
+color:#17d660;
+margin-left:50px;
+margin-top:0px;
+}
+li a{
+font-size:18px;
+color:#17d660;
+text-decoration:underline;
 }
 img{
-height:25%;
-width:25%;
+    height:25%;
+    width:25% ;
 }
