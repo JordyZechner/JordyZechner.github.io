@@ -78,3 +78,170 @@ img{
     height:25%;
     width:25% ;
 }
+#titleoorzaken{
+    text-align:center;
+    width:97%;
+    font-size:20px;
+    margin:30px;
+    clear:both
+
+}
+#oorzaak1{
+    margin: 30px;
+    float:left;
+    text-align:left;
+    font-size:18px;
+    width:45%;
+}
+#oorzaak2{
+    text-align:left;
+    float:right;
+    margin:30px;
+    width:45%;
+    font-size:18px;
+}
+#oorzaak3{
+    margin: 30px;
+    float:left;
+    text-align:left;
+    font-size:18px;
+    width:95%;
+    clear:both;
+}
+#foto_oorzaak1{
+    margin:30px;
+    margin-top:-40px;
+    width:40%;
+    float:right;
+    clear:both;
+}
+#oorzaak4{
+    margin: 30px;
+    float:left;
+    text-align:left;
+    font-size:18px;
+    width:95%;
+   
+}
+#tekstoorzaak4{
+    width:50%;
+    
+}
+#oorzaak5{
+    margin: 30px;
+    float:left;
+    text-align:left;
+    font-size:18px;
+    width:95%; 
+}
+#tekstoorzaak5{
+    width:50%;
+}
+#foto_oorzaak2{
+    margin:30px;
+    margin-top:-200px;
+    width:40%;
+    float:right;
+    clear:both;
+}
+#foto_oorzaak3{
+    margin:30px;
+    margin-top:-230px;
+    float:right;
+    clear:both;
+    width:40%;
+}
+#titlegevolgen{
+    text-align:center;
+    width:97%;
+    font-size:20px;
+    margin:30px;
+    clear:both
+}
+#gevolgen1{
+    margin: 30px;
+    float:left;
+    text-align:left;
+    font-size:18px;
+    width:95%;
+    clear:both;
+}
+#tekstgevolgen1{
+    width:45%;
+}
+#gevolgen2{
+    margin: 30px;
+    float:bottom;
+    text-align:left;
+    font-size:18px;
+    width:95%;
+}
+#tekstgevolgen2{
+    width:45%;
+}
+#gevolgenfoto1{
+    float:right;
+    margin:30px;
+    width:15%;
+    margin-right:200px;
+    margin-top:-310px;
+}
+#gevolgenfoto2{
+    width:15%;
+    float:right;
+    margin:0px;
+    margin-top:-100px;
+    margin-right:200px;
+}
+#gevolgenfoto3{
+    float:right;
+    width:15%;
+    margin:0;
+    margin-top:-100px;
+}
+#titlebmi{
+    text-align:center;
+    width:97%;
+    font-size:20px;
+    margin:30px;
+    clear:both
+}
+#bmi1{
+    margin: 30px;
+    float:left;
+    text-align:left;
+    font-size:18px;
+    width:95%;
+    clear:both;
+}
+#tekstbmi1{
+    width:60%;
+}
+#fotobmi1{
+    float:right;
+    margin-top:-320px;
+    margin-right:150px;
+    width:20%;
+}
+#bmi2{
+    margin: 30px;
+    float:left;
+    text-align:left;
+    font-size:18px;
+    width:95%;
+    clear:both;
+}
+#tekstbmi2{
+    width:60%;
+}
+#fotobmi2{
+    float:right;
+    margin-top:-170px;
+    margin-right:120px;
+}
+#fotobmi3{
+    float:bottom;
+    margin:50px;
+    width:60%;
+    margin-left:20%;
+}
