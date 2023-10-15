@@ -11,6 +11,17 @@ nav{
 overflow:hidden;
 padding-bottom:20px;
 }
+/*nav ul
+{
+    width: 60%;
+    line-height: 7em;
+    float: left;
+    text-align: center;
+}
+nav ul li
+{
+    display: inline;
+}*/
 nav a{
 
 float: left;
@@ -24,7 +35,7 @@ border-left:solid #505762 1px;
 margin:auto;
 /*width:200px;*/
 height:30px;
-width:17.865%;
+width:17.84%;
 }
 nav a:hover{
 background-color:#76d7b8;
