@@ -126,7 +126,7 @@ img{
     margin:30px;
     clear:both
 
-}
+}/*
 #oorzaak1{
     margin: 30px;
     float:left;
@@ -174,7 +174,7 @@ img{
     text-align:left;
     font-size:18px;
     width:95%; 
-}
+}*/
 #tekstoorzaak5{
     width:50%;
 }
@@ -313,4 +313,20 @@ footer p{
     background-color: #4ecca3;
     color:#393E46;
     font-size: 1.2rem;  
+}
+#grid-container2
+{
+display:grid;
+grid-template-columns:auto auto ;
+justify-content: center;
+border:#fff solid 2px;
+grid-gap:10px;
+}
+#grid-container2 > article{
+    grid-column:1/2;
+    border: solid #fff 2px;
+}
+#oorzaak1
+{
+    grid-column:1/2;
 }
