@@ -248,43 +248,59 @@ img{
     clear:both
 }
 #bmi1{
-    margin: 30px;
+    margin: 50px;
     float:left;
     text-align:left;
     font-size:18px;
-    width:95%;
+    width:100%;
     clear:both;
+}
+#bmi1 h2{
+    margin-bottom:20px;
 }
 #tekstbmi1{
-    width:60%;
+    float:left;
+    width:65%;
+}
+#tesktbmi1 h2{
+    margin-left:50px;
 }
 #fotobmi1{
-    float:right;
-    margin-top:-320px;
-    margin-right:150px;
-    width:20%;
+    float:left;
+    margin-top:-20px;
+    margin-left:50px;
+    width:10%;
 }
 #bmi2{
-    margin: 30px;
+    margin: 50px;
     float:left;
     text-align:left;
     font-size:18px;
-    width:95%;
+    width:100%;
     clear:both;
+}
+#bmi2 h2{
+    margin-bottom: 20px;
 }
 #tekstbmi2{
     width:60%;
+    float:left;
 }
+
 #fotobmi2{
-    float:right;
-    margin-top:-170px;
-    margin-right:120px;
+    float:left;
+    margin-top:-30px;
+    margin-left:50px;
+    width:20%;
 }
 #fotobmi3{
-    float:bottom;
+    float:left;
     margin:50px;
-    width:60%;
-    margin-left:20%;
+    width:80%;
+    height:170px;
+    margin-left:10%;
+    object-fit: cover;
+
 }
 nav a img.logo{
     float:top;
