@@ -8,7 +8,7 @@
     word-spacing: 0em;
     letter-spacing: em;
     text-indent:em;
-    line-height:em;
+    line-height:1.5em;
     border-color:0;
     border-style:0;
     border-width:0;
@@ -121,12 +121,15 @@ img{
 }
 #titleoorzaken{
     text-align:center;
-    width:97%;
-    font-size:20px;
-    margin:30px;
-    clear:both
+    width:100%;
+    margin-top:10px;
+    margin-bottom:30px;
 
-}/*
+}
+#titleoorzaken h1{
+    font-size: 1.5rem;
+}
+/*
 #oorzaak1{
     margin: 30px;
     float:left;
@@ -175,80 +178,75 @@ img{
     font-size:18px;
     width:95%; 
 }*/
+#oorzaak1{
+    margin-left:50px;    
+}
+#oorzaak1 h2{
+    font-size: 1.2rem;
+    margin-bottom:20px;
+}
+#oorzaak2{
+    margin-right:50px;
+}
+#oorzaak2 h2{
+    margin-bottom:20px;
+    font-size: 1.2rem;
+}
+#oorzaak4{
+    margin-left:50px;
+}
+#oorzaak4 h2{
+    margin-bottom:20px;
+    font-size: 1.2rem;
+}
+#oorzaak3{
+    margin-right:50px;
+}
+#oorzaak3 h2{
+    margin-bottom:20px;
+    font-size: 1.2rem;
+}
+#oorzaak5{
+    margin-right:50px;
+    margin-left:50px;
+}
 #tekstoorzaak5{
-    width:50%;
+    float:left;
+    width:48%;
+}
+#oorzaak5 h2{
+    margin-bottom:20px;
+    font-size: 1.2rem;
 }
 #foto_oorzaak2{
-    margin:30px;
-    margin-top:-200px;
-    width:40%;
-    float:right;
-    clear:both;
+    float:left;
+    margin-top:10px;
+    margin-left:30px;
+    width:20%;
+    height:50%;
+    object-fit:cover;
 }
 #foto_oorzaak3{
-    margin:30px;
-    margin-top:-230px;
-    float:right;
-    clear:both;
-    width:40%;
-}
-#titlegevolgen{
-    text-align:center;
-    width:97%;
-    font-size:20px;
-    margin:30px;
-    clear:both
-}
-#gevolgen1{
-    margin: 30px;
     float:left;
-    text-align:left;
-    font-size:18px;
-    width:95%;
-    clear:both;
-}
-#tekstgevolgen1{
-    width:45%;
-}
-#gevolgen2{
-    margin: 30px;
-    float:bottom;
-    text-align:left;
-    font-size:18px;
-    width:95%;
-}
-#tekstgevolgen2{
-    width:45%;
-}
-#gevolgenfoto1{
-    float:right;
-    margin:30px;
-    width:15%;
-    margin-right:200px;
-    margin-top:-310px;
-}
-#gevolgenfoto2{
-    width:15%;
-    float:right;
-    margin:0px;
-    margin-top:-100px;
-    margin-right:200px;
-}
-#gevolgenfoto3{
-    float:right;
-    width:15%;
-    margin:0;
-    margin-top:-100px;
+    margin-top:10px;
+    margin-left:30px;
+    width:20%;
+    height:50%;
+    object-fit: cover;
+
 }
 #titlebmi{
     text-align:center;
-    width:97%;
-    font-size:20px;
-    margin:30px;
+    width:100%; 
+    margin-top:30px;
+    margin-bottom:30px;
     clear:both
 }
+#titlebmi h1{
+    font-size: 1.5rem;
+}
 #bmi1{
-    margin: 50px;
+    margin-bottom:50px;
     float:left;
     text-align:left;
     font-size:18px;
@@ -257,12 +255,16 @@ img{
 }
 #bmi1 h2{
     margin-bottom:20px;
+    font-size: 1.2rem;
+    margin-left:50px;
 }
 #tekstbmi1{
+    margin-left:50px;
     float:left;
     width:65%;
 }
 #tesktbmi1 h2{
+    font-size: 1.2rem;
     margin-left:50px;
 }
 #fotobmi1{
@@ -272,17 +274,18 @@ img{
     width:10%;
 }
 #bmi2{
-    margin: 50px;
     float:left;
     text-align:left;
-    font-size:18px;
     width:100%;
     clear:both;
 }
 #bmi2 h2{
+    font-size: 1.2rem;
     margin-bottom: 20px;
+    margin-left:50px;
 }
 #tekstbmi2{
+    margin-left:50px;
     width:60%;
     float:left;
 }
@@ -323,12 +326,13 @@ footer a{
     background-color:#4ecca3;
     color:#393E46;
     font-size: 1.2rem;
-
+    margin-left:10px;
 }
 footer p{
     background-color: #4ecca3;
     color:#393E46;
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
+    margin-right:10px;  
 }
 #grid-container2
 {
@@ -421,4 +425,78 @@ grid-gap:10px;
     margin-left:70px;
     width:20%;
     height:auto;
+}
+#grid-containergevolgen
+{
+display:grid;
+grid-template-columns:auto;
+justify-content: center;
+border:#fff solid 2px;
+grid-gap:10px;
+}
+#grid-containergevolgen > article{
+    
+    border: solid #fff 2px;
+}
+#titlegevolgen{
+    text-align:center;
+    width:100%;
+    font-size:20px;
+    clear:both
+}
+#titlegevolgen h1{
+    font-size: 1.5rem;
+}
+#gevolgen1{
+    margin-left:50px;
+    margin-right:50px;
+    float:left;
+    text-align:left;
+}
+#gevolgen1 p{
+    float:left;
+    width:60%;
+}
+#gevolgen1 h2{
+    font-size: 1.2rem;
+    margin-bottom:20px;
+}
+#gevolgen2{
+    margin-left:50px;
+    margin-right:50px;
+    float:left;
+    text-align:left;
+}
+#tekstgevolgen2{
+    float:left;
+    width:55%;
+}
+#gevolgen2 h2{
+    margin-top:50px;
+    font-size: 1.2rem;
+    margin-bottom:20px;
+}
+#gevolgenfoto1{
+    margin-top:-10px;    
+    margin-left:140px;
+    float:left;
+    width:12%;
+    height:85%;
+    object-fit: cover;  
+}
+#gevolgenfoto2{
+    margin-top: -65px;
+    margin-left:20px;
+    float:left;
+    width:12%;
+    height:70%;
+    object-fit: cover;
+}
+#gevolgenfoto3{
+    margin-top:-65px;
+    margin-left:20px;
+    float:left;
+    width:12%;
+    height:70%;
+    object-fit: cover;
 }
