@@ -421,9 +421,9 @@ grid-gap:10px;
     margin-left:50px;
 }
 #suggestie2 img{
-    margin-top:-30px;
+    margin-top:-20px;
     margin-left:70px;
-    width:20%;
+    width:22%;
     height:auto;
 }
 #grid-containergevolgen
@@ -499,4 +499,76 @@ grid-gap:10px;
     width:12%;
     height:70%;
     object-fit: cover;
+}
+label{
+    margin-left:50px;
+    float:left;
+}
+#email{
+    background-color: #fff;
+    margin-left:56.5px;
+    float:left;
+    border:solid #4ecca3 2px;
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+#Telefoon_nummer{
+    background-color: #fff;
+    margin-left:20px;
+    float:left;
+    border:solid #4ecca3 2px;
+    margin-bottom:50px;
+}
+#email_label{
+    margin-top:50px;
+}
+#Telefoon_nummer_label{
+    clear:both;
+}
+#radio_button_vraag{
+    clear:both;
+    margin-left:50px;
+    float:left;
+    margin-right:50px;
+}
+/*#nee_label{
+    float:left;
+}
+#nee{
+    float:left;
+}
+#ja_label{
+    float:left;
+}
+#ja{
+    float:left;
+}*/
+#review{
+    background-color:#fff;
+    clear:both;
+}
+#grid-container_radio{
+    display:grid;
+grid-template-columns:auto auto;
+justify-content: center;
+border:#4ecca3 solid 2px;
+grid-gap:10px;
+float:left;
+background-color: #fff;
+width: 500px;
+}
+#grid-container_radio > article{
+    background-color:#fff
+
+}
+#ja{
+    float:left;
+    margin-left:50px;
+    margin-top:5px;  
+}
+#ja_label{  
+    float:left;
+    background-color:#fff;
+    color:#393E46;
+    margin-left:0px;
 }

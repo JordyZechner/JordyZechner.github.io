@@ -12,12 +12,31 @@
         <header>
             <nav>              
                 <a href="homepage.html" target="_self"> <img class="logo"src="images/logo overgewichtbijgesneden.svg" alt="Home"> </a>
-                <a href="oorzaakpage.html" target="_self"> Oorzaken van overgewicht </a>
-                <a href="gevolgenpage.html" target="_self"> Gevolgen van overgewicht</a>  
-                <a href="bmipage.html" target="_self">Overgewicht berekenen</a>
+                <a href="oorzaakpage.html" target="_self"> Oorzaken</a>
+                <a href="gevolgenpage.html" target="_self"> Gevolgen</a>  
+                <a href="bmipage.html" target="_self">BMI</a>
                 <a href="oplossingpage.html" target="_self">Suggesties</a>
             </nav>    
         </header>
+        <label for="email" id="email_label"> Email adress</label>
+        <input type="text" id="email" name="email" required>
+        <label for="Telefoon_nummer" id="Telefoon_nummer_label"> Telefoon nummer: </label>
+        <input type="text" id="Telefoon_nummer" name="Telefoon_nummer" required>
+        <p id="radio_button_vraag">
+            Heeft u iets van deze website geleerd?
+        </p>
+        <section id="grid-container_radio">
+            <article>
+                <input type="radio" id="ja" name="nieuwe_kennis" value="ja">
+                <label for="ja" id="ja_label">Ja</label>
+            </article>
+            <article>
+                <input type="radio" id="nee" name="nieuwe_kennis" value="nee">
+                <label for="nee" id="nee_label">Nee</label>
+            </article>
+        </section>
+        <label for="review"> Review: </label>
+        <input type="text" id="review" name="review" required>
 
     </body>
     <footer>
