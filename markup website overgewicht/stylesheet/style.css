@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 *{
     background-color: #22252a;
     margin:0px;
@@ -5,16 +6,18 @@
     border:0px;
     font-size:16px;
     color:#fff;
-    word-spacing: 0em;
-    letter-spacing: em;
-    text-indent:em;
+    word-spacing: 0rem;
+    letter-spacing:0rem;
+    text-indent:0rem;
     line-height:1.5em;
     border-color:0;
     border-style:0;
     border-width:0;
+    font-family: 'Montserrat', sans-serif;
 }
-@import url('');
+
 nav{
+    font-family: 'Montserrat', sans-serif;
     width:100%;
 overflow:hidden;
 padding-bottom:20px;
@@ -90,6 +93,7 @@ grid-template-columns:auto ;
 justify-content: center;
 }
 p.text{
+font-family: 'Montserrat';
 float: center;
 margin: 30px;
 width: 90% auto;
@@ -219,6 +223,7 @@ img{
 #oorzaak5{
     margin-right:50px;
     margin-left:50px;
+    margin-bottom:50px ;
 }
 #tekstoorzaak5{
     float:left;
@@ -343,18 +348,15 @@ footer p{
     background-color: #4ecca3;
     color:#393E46;
     font-size: 1.2rem;
-    margin-right:10px;  
+    margin-right:0px;  
+    padding-right:10px;
 }
 #grid-container2
 {
 display:grid;
 grid-template-columns:auto auto;
 justify-content: space-evenly;
-grid-gap:20px;
-}
-#grid-container2 > article{
-    
-   
+grid-gap:30px;
 }
 #titleoorzaken{
     grid-column:1/3;
@@ -382,9 +384,6 @@ grid-gap:20px;
     display:grid;
     grid-template-columns:auto ;
     justify-content: center;
-    /*border:solid #fff 2px;*/
-}
-#grid-container3 > article{
     /*border:solid #fff 2px;*/
 }
 #titlesuggestie h1{
@@ -422,6 +421,7 @@ grid-gap:20px;
 }
 #suggestie2 h2{
     font-size:1.2rem;
+    margin-top: 50px;
     margin-left:50px;
     margin-bottom:20px;
 }
@@ -429,6 +429,7 @@ grid-gap:20px;
     float:left;
     width:55%;
     margin-left:50px;
+    margin-bottom: 30px;
 }
 #suggestie2 img{
     margin-top:-20px;
@@ -443,10 +444,6 @@ grid-template-columns:auto;
 justify-content: center;
 /*border:#fff solid 2px;*/
 grid-gap:10px;
-}
-#grid-containergevolgen > article{
-    
-   /* border: solid #fff 2px;*/
 }
 #titlegevolgen{
     text-align:center;
