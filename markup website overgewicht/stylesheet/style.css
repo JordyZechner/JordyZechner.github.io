@@ -19,6 +19,16 @@ nav{
 overflow:hidden;
 padding-bottom:20px;
 }
+title{
+    display:none;
+}
+figcaption{
+    margin-bottom:50px;
+    margin-left:151px;
+    background-color:#000;
+    margin-right:151px;
+    clear:both;
+}
 /*nav ul
 {
     width: 60%;
@@ -303,6 +313,7 @@ img{
     height:170px;
     margin-left:10%;
     object-fit: cover;
+    margin-bottom:0px;
 
 }
 nav a img.logo{
@@ -371,10 +382,10 @@ grid-gap:20px;
     display:grid;
     grid-template-columns:auto ;
     justify-content: center;
-    border:solid #fff 2px;
+    /*border:solid #fff 2px;*/
 }
 #grid-container3 > article{
-    border:solid #fff 2px;
+    /*border:solid #fff 2px;*/
 }
 #titlesuggestie h1{
     font-size:1.5rem;
@@ -430,12 +441,12 @@ grid-gap:20px;
 display:grid;
 grid-template-columns:auto;
 justify-content: center;
-border:#fff solid 2px;
+/*border:#fff solid 2px;*/
 grid-gap:10px;
 }
 #grid-containergevolgen > article{
     
-    border: solid #fff 2px;
+   /* border: solid #fff 2px;*/
 }
 #titlegevolgen{
     text-align:center;
@@ -629,8 +640,8 @@ textarea{
     background-color:#4ecca3;
     color:#393E46;
     border: solid #505762 2px;
-    padding: 10px 20px;
-    margin-left:450px;
+    padding: 10px 100px;
+    margin-left:360px;
     margin-bottom:80px;
     clear:left;
 }
