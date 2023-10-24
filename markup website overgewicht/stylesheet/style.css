@@ -10,9 +10,9 @@
     letter-spacing:0rem;
     text-indent:0rem;
     line-height:1.5em;
-    border-color:0;
-    border-style:0;
-    border-width:0;
+    border-color:none;
+    border-style:none;
+    border-width:none;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -233,7 +233,7 @@ img{
     margin-bottom:20px;
     font-size: 1.2rem;
 }
-#foto_oorzaak2{
+#foto_oorzaak2, #foto_oorzaak3{
     float:left;
     margin-top:10px;
     margin-left:30px;
@@ -241,7 +241,7 @@ img{
     height:50%;
     object-fit:cover;
 }
-#foto_oorzaak3{
+/*#foto_oorzaak3{
     float:left;
     margin-top:10px;
     margin-left:30px;
@@ -249,7 +249,7 @@ img{
     height:50%;
     object-fit: cover;
 
-}
+}*/
 #titlebmi{
     text-align:center;
     width:100%; 
@@ -258,7 +258,8 @@ img{
     clear:both
 }
 #titlebmi h1{
-    font-size: 1.5rem;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 #bmi1{
     margin-bottom:50px;
@@ -513,7 +514,7 @@ label{
 }
 #email{
     background-color: #fff;
-    margin-left:56.5px;
+    margin-left:64px;
     float:left;
     border:solid #4ecca3 2px;
     margin-bottom: 50px;
@@ -623,9 +624,9 @@ textarea{
     box-sizing: border-box;
     float:left;
     margin-top:25px;
-    margin-left:146px;
+    margin-left:139px;
     margin-bottom: 50px;
-    width: 505px;
+    width: 504px;
     height:100px;
     border:solid #4ecca3 2px;
     color:#393E46;
@@ -641,4 +642,76 @@ textarea{
     margin-left:360px;
     margin-bottom:80px;
     clear:left;
+}
+legend{
+    margin-left:50px;
+    margin-top:20px;
+}
+#homeknop{
+    width:19.95%;
+    padding:0;
+    margin:0;
+}
+#homelogo{
+    position:static;
+    padding:0px;
+    margin:0;
+    width:100%;
+    height:58px;
+    object-fit: cover;
+}
+@media screen and (max-width:719px){
+nav{
+    width:100%
+}
+nav a{
+    font-size:1rem ;
+    width:13.4%;
+}
+    p.text{
+    color:#4ecca3;
+}
+ul{
+    display:none;
+}
+#homepic{
+    margin-bottom:60px;
+}
+}
+@media screen and (min-width:720px) and (max-width:929px){
+nav a{
+    font-size:1.2rem;
+    color:#fff;
+    width:14%;
+}
+img{
+    width:80px;
+    height:auto;
+}
+#homepic{
+    margin-bottom:60px;
+}
+footer p{
+    color:#fff;
+}
+footer a{
+    color:#fff;
+}
+footer{
+    margin-top:50px;
+}
+}
+#cookies{
+    font-size: 1.2rem;
+    position:fixed;
+    float:center;
+    margin-left:0px;
+    margin-top:0px;
+    background-color: #fff;
+    border:solid #4ecca3 2px;
+    color:#393E46;
+    padding:100px;
+}
+#cookies button.active{
+    display:none;
 }
