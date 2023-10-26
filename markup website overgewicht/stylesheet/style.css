@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap'); /* Montserrat font */
 *{
     background-color: #22252a;
     margin:0px;
@@ -10,9 +10,9 @@
     letter-spacing:0rem;
     text-indent:0rem;
     line-height:1.5em;
-    border-color:none;
+    border-color:#fff;
     border-style:none;
-    border-width:none;
+    border-width:0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -94,9 +94,8 @@ justify-content: center;
 }
 p.text{
 font-family: 'Montserrat';
-float: center;
 margin: 30px;
-width: 90% auto;
+width: 90%;
 margin-left:3%;
 margin-bottom:0px;
 margin-right:0px;
@@ -117,8 +116,6 @@ ul{
     padding-left:0px;
 }
 li{
-
-float:center;
 color:#4ecca3;
 margin-left:45px;
 margin-top:15px;
@@ -274,14 +271,13 @@ img{
     font-size: 1.2rem;
     margin-left:50px;
 }
+#bmi1 em{
+    font-size:1.2rem;
+}
 #tekstbmi1{
     margin-left:50px;
     float:left;
     width:65%;
-}
-#tesktbmi1 h2{
-    font-size: 1.2rem;
-    margin-left:50px;
 }
 #fotobmi1{
     float:left;
@@ -323,7 +319,6 @@ img{
 
 }
 nav a img.logo{
-    float:top;
     margin:0px;
     padding:0px;
     padding-bottom:0px;
@@ -351,6 +346,12 @@ footer p{
     font-size: 1.2rem;
     margin-right:0px;  
     padding-right:10px;
+}
+footer h2{
+    font-size: 1.2rem;
+    margin-right:10px;
+    background-color: #4ecca3;
+    color:#393E46;
 }
 #grid-container2
 {
@@ -414,7 +415,7 @@ grid-gap:30px;
     float:left;
     margin-left:20px;
     margin-top:20px;
-    height:51.6%;
+    height:49.3%;
     object-fit: cover;
 }
 #suggestie2{
@@ -702,16 +703,25 @@ footer{
 }
 }
 #cookies{
+    margin-left:900px;
+    margin-top:-500px;
     font-size: 1.2rem;
     position:fixed;
-    float:center;
-    margin-left:0px;
-    margin-top:0px;
     background-color: #fff;
     border:solid #4ecca3 2px;
     color:#393E46;
     padding:100px;
+    z-index:9999;
 }
-#cookies button.active{
+#cookiesbutton{
+    color:#393E46;
+    background-color: #4ecca3;
+    padding:30px 40px;
+    clear:both;
+}
+#cookiesbutton:hover{
+    background-color: #76d7b8;
+} 
+#cookiesbutton:active{
     display:none;
 }
