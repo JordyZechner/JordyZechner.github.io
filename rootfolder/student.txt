@@ -1,5 +1,0 @@
-Student name: Jordy Zechner
-Student number: 722883
-Student class: INF1A
-GitHub Repository:https://github.com/JordyZechner/JordyZechner.github.io
-GutHub Pages URL: https://jordyzechner.github.io/
